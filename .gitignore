@@ -1,2 +1,12 @@
 build
 .claude
+
+# Xcode
+xcuserdata/
+
+# Windows / .NET
+Windows/bin/
+Windows/obj/
+*.user
+*.suo
+.vs/
