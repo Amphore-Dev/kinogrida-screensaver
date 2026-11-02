@@ -15,45 +15,11 @@ A screensaver featuring animated geometric shapes — arcs and rounded squares �
 
 ## macOS
 
-**Requirements:** macOS 11.5+, Xcode with macOS SDK
-
-### Project Structure
-
-```
-MacOS/
-├── Kinogrida.xcodeproj
-└── Kinogrida/
-    ├── KinogridaView.swift
-    ├── KinogridaEngine.swift
-    ├── Classes/
-    │   ├── BaseShape/KGBaseShape.swift
-    │   ├── ArcShape/KGArcShape.swift
-    │   └── SquareShape/KGSquareShape.swift
-    └── Constants/
-        ├── KGColors.swift
-        ├── KGGridConfig.swift
-        └── KGTypes.swift
-```
-
-### Build from source
-
-```bash
-cd MacOS
-
-# Build release
-make
-
-# Build + install to ~/Library/Screen Savers/
-make install
-
-# Remove
-make remove
-
-# Clean build artifacts
-make clean
-```
-
-After `make install`, open **System Settings → Screen Saver** and select **Kinogrida**.
+> **The macOS version now lives in [amphore-saver](https://github.com/Amphore-Dev/amphore-saver).**
+>
+> Download the signed and notarized **Kinogrida.saver.zip** from the [latest release](https://github.com/Amphore-Dev/amphore-saver/releases/latest), or **amphore-saver.saver.zip** to get a random mix of Kinogrida, Shades and Psykala. It adds an options panel and 60 fps, and runs on macOS 11.5+ (Apple silicon and Intel).
+>
+> The `MacOS/` folder of this repository is no longer maintained.
 
 ---
 
